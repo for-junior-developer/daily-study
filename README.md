@@ -16,7 +16,7 @@ daily study for junior developer
 
 ## 깃 명령어
 
-```` bash
+``` bash
 // 클론으로 프로젝트 받기
 git clone https://github.com/for-junior-developer/daily-study.git
 
@@ -38,4 +38,4 @@ git commit -m "메세지"
 // 커밋한 내용 github에 푸시하기
 git push origin main
 
-````
+```
