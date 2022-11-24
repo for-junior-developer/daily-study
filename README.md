@@ -10,9 +10,12 @@ daily study for junior developer
 - 코딩테스트 실력 향상을 위해 프로그래머스 코딩테스트 고득점 Kit 문제 풀이
 
 ## ✏ 목표
-### 22-11-23
-- 프로그래머 코딩테스트 고득점 Kit: 해시 - 완주하지 못한 선수(Lv1) 풀기 ([문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42576))
 
+### 22-11-23
+- 프로그래머스 코딩테스트 고득점 Kit: 해시 - 완주하지 못한 선수(Lv1) 풀기 ([문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42576))
+
+### 22-11-24
+- 프로그래머스 코딩테스트 고득점 Kit: DFS/BFS - 타겟 넘버(Lv2) 공부하기 ([문제 링크](https://school.programmers.co.kr/learn/courses/30/parts/12421))
 
 ## 프로젝트 연결하기
 
