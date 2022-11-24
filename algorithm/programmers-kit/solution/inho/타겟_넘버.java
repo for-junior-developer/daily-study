@@ -14,7 +14,7 @@ public class 타겟_넘버 {
             g_numbers = numbers;
             g_target = target;
 
-            // 가능한 시작지점마다 시작
+            // 가능한 시작지점마다 dfs 수행
             for (int i_starting = 0; i_starting < g_sign.length; i_starting++) {
                 // 초기화
                 g_isVisited = new boolean[numbers.length][g_sign.length];
@@ -31,12 +31,12 @@ public class 타겟_넘버 {
         }
 
         // 방문하기
-        public void visit(int depth, int index, int curSum) {
+        public void visit(int depth, int i_sign, int curSum) {
             // 방문 처리
-            g_isVisited[depth][index] = true;
+            g_isVisited[depth][i_sign] = true;
 
             // 새로운 합 계산
-            int newSum = curSum + g_sign[index] * g_numbers[depth];
+            int newSum = curSum + g_sign[i_sign] * g_numbers[depth];
 
             // 스택에 넣기
             g_stack.push(new int[] {depth, newSum});
@@ -48,9 +48,9 @@ public class 타겟_넘버 {
                 return;
             }
 
-            int[] popedArr = g_stack.pop();
-            int depth = popedArr[0] + 1;
-            int curSum = popedArr[1];
+            int[] poppedArr = g_stack.pop();
+            int depth = poppedArr[0] + 1;
+            int curSum = poppedArr[1];
 
             if (depth == g_numbers.length) {
                 if (curSum == g_target) {
