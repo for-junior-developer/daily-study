@@ -17,6 +17,9 @@ daily study for junior developer
 ### 22-11-24
 - 프로그래머스 코딩테스트 고득점 Kit: DFS/BFS - 타겟 넘버(Lv2) 공부하기 ([문제 링크](https://school.programmers.co.kr/learn/courses/30/parts/12421))
 
+### 22-11-28
+- 프로그래머스 코딩테스트 고득점 Kit: 탐욕법 - 체육복(Lv1) 공부하기 ([문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42862))
+
 ## 프로젝트 연결하기
 
 ### git 명령어 이용해서 프로젝트 클론 받기
